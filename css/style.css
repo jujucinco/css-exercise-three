@@ -9,37 +9,43 @@ body {
 }
 
 .container {
+  background-color:gray;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: black;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 20px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width:100%
+
+}
+.location h1 {
+  font-size:18px;
+  padding-left:10%
 }
 
-.content h1 {
-font-size:18px;
-color:#000000;
+.location:hover {
+  background-color:#A9A9A9;
+
 }
 
 
 .content h3 {
-font-size:20px;
-color:#FFFFFF ;
+  font-size:14px;
+  font-weight:normal;
+  padding-left:10%
 }
 
-div .restaurant-list {
-   width: 50%;
- }
+.fa-chevron-right {
+  padding-left:80%;
+  display:inline;
 
-
-div .location hover {
-  background-color:#D3D3D3; /* mouse over */
-  }
+}
